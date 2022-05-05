@@ -1,12 +1,10 @@
 ---
 title: Organization のインサイトを表示する
 intro: Organization のインサイトは、Organization のアクティビティ、コントリビューション、および依存関係についてのデータを提供します。
-product: '{% data reusables.gated-features.org-insights %}'
 redirect_from:
   - /articles/viewing-insights-for-your-organization
   - /github/setting-up-and-managing-organizations-and-teams/viewing-insights-for-your-organization
 versions:
-  fpt: '*'
   ghec: '*'
 topics:
   - Organizations
@@ -14,6 +12,8 @@ topics:
 shortTitle: Organizationインサイトの表示
 permissions: Organization members can view organization insights.
 ---
+
+## Organizationインサイトについて
 
 Organization のメンバーが、コードについてコラボレートや作業をするため {% data variables.product.product_name %} をどう使っているかについて、より深く理解するために、Organization activity insights を使用できます。 dependency insights は、Organization のオープンソース利用について追跡、レポート、および行動するため役立ちます。
 
@@ -43,7 +43,7 @@ Organization activity insights を使えば、Issue やプルリクエストア�
 
 {% note %}
 
-**ノート:** 必ず[依存関係グラフ](/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#enabling-the-dependency-graph)を有効化しておいてください。
+**ノート:** 必ず[依存関係グラフ](/code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-the-dependency-graph)を有効化しておいてください。
 
 {% endnote %}
 
